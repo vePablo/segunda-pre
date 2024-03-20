@@ -1,0 +1,17 @@
+.product-contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+.product-img img{
+    width: 500px;
+}
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
