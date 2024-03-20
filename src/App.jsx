@@ -18,13 +18,13 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route path='/'                   element={<HomeComponent />} />
-          <Route path='/products'           element={<Products />     } />
-          <Route path="/products/:prodId" exact element={<Product />} />
+          <Route path='/'                   element={<HomeComponent />}/>
+          <Route path='/products'           element={<Products />} />
+          <Route path='/products/:prodId'   element={<Product />} />
 
-          <Route path="/contacts"           element={<Crontacts />    } />
-          <Route path='/products/cuadernos' element={<Cuadernos/>     }/>
-          <Route path='/products/remeras'   element={<Remeras/>      }/>
+          <Route path="/contacts"           element={<Crontacts /> } />
+          <Route path='/products/cuadernos' element={<Cuadernos/>}/>
+          <Route path='/products/remeras'   element={<Remeras/>}/>
         </Routes>
       </div>
       

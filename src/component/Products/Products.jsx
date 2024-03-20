@@ -14,10 +14,10 @@ const Products =() => {
         });
     }, []);
 
-    const handleClick = (id) =>{
-         
-        navigate(`./product/${id}`)
-    }
+    const handleClick = (id) => {
+        console.log("ID del producto:", id);
+        navigate(`/products/${id}`);
+      }
     
     return (
         <section>
